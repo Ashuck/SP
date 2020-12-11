@@ -1,8 +1,8 @@
 import vk_api
 from vk_api.longpoll import VkLongPoll, VkEventType
 
-from vk_config import token, Kbr, kbr_schet
-from answers import from_inline
+from vk_config import token, Kbr, kbr_schet, from_inline
+# from answers import from_inline
 
 
 vk_session = vk_api.VkApi(token=token)
